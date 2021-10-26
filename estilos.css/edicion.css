@@ -25,11 +25,11 @@ img:hover {
 
 /*cuadrado*/
 
-div.cuadrado {
+figure.cuadrado {
   display: flex;
   justify-content: flex-end;
-  width: 900px;
-  height: 600px;
+  width: 66vw;
+  height: 80vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -38,8 +38,8 @@ div.cubo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  height: 450px;
+  width: 35vw;
+  height: 55vh;
   position: absolute;
   margin-top: 70px;
   background: rgba(0, 0, 0, 0.7);
@@ -49,16 +49,9 @@ div.cubo {
 }
 
 div.cubo:hover {
-  width: 900px;
+  width: 66vw;
   background: rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 #1416, 0 0 0 #1416;
-}
-
-img.icon {
-  margin-top: 90px;
-  width: 80px;
-  transition: 0.3s;
-  transition-delay: 0.3s;
 }
 
 p.texto {
@@ -84,11 +77,11 @@ div.cubo:hover .texto {
 
 /*cuadrado2*/
 
-div.cuadrado2 {
+figure.cuadrado2 {
   display: flex;
   justify-content: flex-start;
-  width: 900px;
-  height: 600px;
+  width: 66vw;
+  height: 80vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -97,8 +90,8 @@ div.cubo2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  height: 450px;
+  width: 35vw;
+  height: 55vh;
   position: absolute;
   margin-top: 70px;
   background: rgba(0, 0, 0, 0.7);
@@ -108,16 +101,9 @@ div.cubo2 {
 }
 
 div.cubo2:hover {
-  width: 900px;
+  width: 66vw;
   background: rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 #1416, 0 0 0 #1416;
-}
-
-img.icon2 {
-  margin-top: 90px;
-  width: 80px;
-  transition: 0.3s;
-  transition-delay: 0.3s;
 }
 
 p.texto2 {
@@ -143,11 +129,11 @@ div.cubo2:hover .texto2 {
 
 /*cuadrado3*/
 
-div.cuadrado3 {
+figure.cuadrado3 {
   display: flex;
   justify-content: flex-end;
-  width: 900px;
-  height: 600px;
+  width: 66vw;
+  height: 80vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -156,8 +142,8 @@ div.cubo3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  height: 450px;
+  width: 35vw;
+  height: 55vh;
   position: absolute;
   margin-top: 70px;
   background: rgba(0, 0, 0, 0.7);
@@ -167,16 +153,9 @@ div.cubo3 {
 }
 
 div.cubo3:hover {
-  width: 900px;
+  width: 66vw;
   background: rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 #1416, 0 0 0 #1416;
-}
-
-img.icon3 {
-  margin-top: 90px;
-  width: 80px;
-  transition: 0.3s;
-  transition-delay: 0.3s;
 }
 
 p.texto3 {
@@ -202,11 +181,11 @@ div.cubo3:hover .texto3 {
 
 /*cuadrado4*/
 
-div.cuadrado4 {
+figure.cuadrado4 {
   display: flex;
   justify-content: flex-start;
-  width: 900px;
-  height: 600px;
+  width: 66vw;
+  height: 80vh;
   margin-top: 20px;
   background: #1416;
 }
@@ -215,8 +194,8 @@ div.cubo4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  height: 450px;
+  width: 35vw;
+  height: 55vh;
   position: absolute;
   margin-top: 70px;
   background: rgba(0, 0, 0, 0.7);
@@ -226,16 +205,9 @@ div.cubo4 {
 }
 
 div.cubo4:hover {
-  width: 900px;
+  width: 66vw;
   background: rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 #1416, 0 0 0 #1416;
-}
-
-img.icon4 {
-  margin-top: 90px;
-  width: 80px;
-  transition: 0.3s;
-  transition-delay: 0.3s;
 }
 
 p.texto4 {
@@ -260,17 +232,22 @@ div.cubo4:hover .texto4 {
 }
 
 /*footer*/
-.pie {
-  margin-top: 25px;
-  padding: 10px;
+footer {
+  transform: translate(0, 0.8rem);
+  padding: 0.8rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.regreso {
-  width: 40px;
+img.regreso {
+  width: 2.3rem;
   padding: 5px;
-  transform: translate(655px);
+  transform: translate(41rem);
+  border-radius: 15%;
   transition: 1s;
+}
+
+img.regreso:hover {
+  box-shadow: 0 2px 6px #000;
 }
 
 /*responsive*/

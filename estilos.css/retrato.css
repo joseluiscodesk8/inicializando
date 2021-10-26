@@ -7,13 +7,14 @@
 .contenedor {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 1.1rem;
+  justify-items: center;
   margin: 25px;
   /*transition: 5s;*/
 }
 
 a img {
-  width: 225px;
+  width: 15vw;
   height: 100%;
   object-fit: cover;
   /*transform: translate();*/
@@ -22,8 +23,8 @@ a img {
 }
 
 a img:hover {
-  width: 225px;
   filter: blur();
+  box-shadow: 0 2px 2px #000;
 }
 
 /*footer*/
@@ -34,13 +35,14 @@ footer {
 }
 
 img.icon {
-  width: 40px;
-  transform: translate(655px);
+  width: 2.3rem;
+  transform: translate(41rem);
+  border-radius: 15%;
   filter: blur();
   padding: 5px;
 }
 
 img.icon:hover {
-  width: 40px;
+  width: 2.3rem;
   box-shadow: 0 2px 6px #000;
 }

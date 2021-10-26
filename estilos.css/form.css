@@ -12,8 +12,8 @@ body {
   margin: 20px auto;
   padding: 25px;
   border: 1px solid #ccc;
-  width: 400px;
-  height: 400px;
+  width: 28vw;
+  height: 58vh;
   background: rgba(154, 177, 172, 0.3);
   animation-name: form;
   animation-duration: 10s;
@@ -53,9 +53,9 @@ body {
 }
 
 .form-label {
-  transform: translate(10px, -70px);
+  transform: translate(0.5rem, -5rem);
   position: absolute;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "cursive";
   font-weight: bold;
   text-transform: capitalize;
@@ -85,7 +85,7 @@ footer {
 img {
   width: 40px;
   padding: 5px;
-  transform: translate(655px);
+  transform: translate(41rem);
   border-radius: 15%;
   transition: 1s;
 }

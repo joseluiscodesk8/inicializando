@@ -16,7 +16,7 @@ body {
 header {
   background: rgba(219, 234, 232, 0.7);
   width: 60%;
-  height: 115px;
+  height: 16vh;
   margin: 40px auto;
   box-shadow: 1px 2px 5px #000, 0 0 5px #00ffff;
 }
@@ -67,9 +67,9 @@ img.icon1,
 .icon2,
 .icon3 {
   border-radius: 15%;
-  width: 50px;
+  width: 3.2rem;
   padding: 10px;
-  transform: translate(0, 15px);
+  transform: translate(0, 0.9rem);
   background: rgba(245, 246, 246, 0.5);
   box-shadow: 0 0 5px #fff, 0 0 5px #1416;
   transition: 0.3s;
@@ -79,12 +79,12 @@ img.icon1,
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 28px;
+  font-size: 1.9rem;
   text-transform: capitalize;
   color: #fff;
   text-shadow: 0 2px 6px #000;
   text-decoration-color: black;
-  transform: translate(0, -25px);
+  transform: translate(0, -1.8rem);
   letter-spacing: 1.5 px;
   opacity: 0;
   transition: 1s;
@@ -120,8 +120,8 @@ div.caja {
 
 div.caja1 {
   position: relative;
-  width: 302px;
-  height: 390px;
+  width: 22vw;
+  height: 56vh;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.6);
   transition: 1s;
@@ -144,7 +144,7 @@ div.caja1:hover {
 }
 
 img.jose {
-  width: 300px;
+  width: 19rem;
 }
 
 .title {
@@ -171,8 +171,8 @@ div.caja2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
-  height: 390px;
+  width: 56vw;
+  height: 56vh;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   transition: 1s;
@@ -184,7 +184,7 @@ div.caja2:hover {
 
 h1 {
   padding: 40px;
-  transform: translate(0, 120px);
+  transform: translate(0, 8rem);
   transition: 2s;
   transition-delay: 0.6s;
 }
@@ -197,7 +197,7 @@ p {
   padding: 30px;
   text-align: center;
   font-family: Arial Narrow Bold, sans-serif, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
@@ -212,17 +212,17 @@ div.caja2:hover > p {
 
 /*porcentajes*/
 
-div.porcentaje {
+section.porcentaje {
   display: flex;
-  height: 600px;
+  height: 75vh;
 }
 
 div.degradado {
   position: relative;
-  top: 50px;
+  top: 20px;
   display: flex;
-  width: 700px;
-  height: 500px;
+  width: 50vw;
+  height: 70vh;
   flex-wrap: wrap;
   justify-content: center;
   transform: translate(550px);
@@ -231,8 +231,8 @@ div.degradado {
 
 div.card {
   position: relative;
-  width: 200px;
-  height: 220px;
+  width: 15vw;
+  height: 30vh;
   display: flex;
   margin: 10px;
   top: 2.5%;
@@ -246,15 +246,15 @@ div.card {
 }
 
 div.card:hover {
-  transform: translate(0, -10px);
+  transform: translate(0, -0.6rem);
   box-shadow: 0 65px 25px #424242;
 }
 
 svg {
   position: absolute;
   z-index: 100;
-  width: 150px;
-  height: 150px;
+  width: 9.3rem;
+  height: 9.3rem;
   transform: translate(30px, -100px);
   border-radius: 50%;
   border: 1px solid #000;
@@ -263,8 +263,8 @@ svg {
 
 svg circle {
   transform: translate(4px, 4px);
-  width: 80px;
-  height: 80px;
+  width: 7rem;
+  height: 7rem;
   fill: none;
   stroke: #000;
   stroke-width: 10;
@@ -276,7 +276,7 @@ div.card:hover svg {
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 0.9rem;
   position: absolute;
   z-index: 100;
   opacity: 0;
@@ -286,8 +286,8 @@ h4 {
 }
 
 div.card:hover h4 {
-  transform: translate(62px, -45px);
-  font-size: 40px;
+  transform: translate(4.1rem, -3.1rem);
+  font-size: 2.7rem;
   opacity: 1;
   color: #fff;
   text-shadow: 10px 3px 10px #000;
@@ -296,26 +296,26 @@ div.card:hover h4 {
 h6.ilus,
 h6.java {
   position: absolute;
-  transform: translate(75px, 75px);
-  font-size: 15px;
+  transform: translate(4.5rem, 4.8rem);
+  font-size: 1rem;
 }
 
 h6.clip {
   position: absolute;
-  transform: translate(58px, 75px);
-  font-size: 15px;
+  transform: translate(4rem, 4.8rem);
+  font-size: 1rem;
 }
 
 h6.ht {
   position: absolute;
-  transform: translate(90px, 75px);
-  font-size: 15px;
+  transform: translate(5rem, 4.8rem);
+  font-size: 1rem;
 }
 
 h6.cs {
   position: absolute;
-  transform: translate(100px, 75px);
-  font-size: 20px;
+  transform: translate(6rem, 4.8rem);
+  font-size: 1rem;
 }
 
 h5 {
@@ -323,7 +323,7 @@ h5 {
   z-index: 100;
   transform: translate(70px, 75px);
   color: #000;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 div.card:nth-child(1) svg circle:nth-child(1) {
@@ -393,25 +393,22 @@ div.card:hover:nth-child(6) svg circle:nth-child(1) {
   stroke-width: 10;
 }
 
-div.foot {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  height: 40px;
-}
-
 footer {
   display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  height: 2.8rem;
 }
 
 footer img {
-  width: 20px;
-  transform: translate(600px, 3px);
+  width: 1.4rem;
+  transform: translate(36rem, 3px);
   margin: 5px;
 }
 
 p.feet {
-  font-size: 10px;
+  font-size: 0.7rem;
   text-transform: capitalize;
-  transform: translate(10px, 15px);
+  transform: translate(0.5rem, 0.9rem);
   color: #000;
   opacity: 1;
   padding: 0;
