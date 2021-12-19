@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/*header*/
+/*HEADER*/
 
 header {
   background: rgba(219, 234, 232, 0.7);
@@ -31,7 +31,7 @@ li {
 }
 
 #uno {
-  transition: 0.3s;
+  transition: 0.3s ease all;
   transition-delay: 0.3s;
 }
 a img.icon1 {
@@ -45,7 +45,7 @@ a:hover img.icon1 {
 }
 
 #dos {
-  transition: 0.3s;
+  transition: 0.3s ease all;
   transition-delay: 0.3s;
 }
 a img.icon2 {
@@ -59,7 +59,7 @@ a:hover img.icon2 {
 }
 
 #tres {
-  transition: 0.3s;
+  transition: 0.3s ease all;
   transition-delay: 0.3s;
 }
 a img.icon3 {
@@ -88,7 +88,7 @@ img.icon1,
   transform: translate(0, 0.9rem);
   background: rgba(245, 246, 246, 0.5);
   box-shadow: 0 0 5px #fff, 0 0 5px #1416;
-  transition: 0.3s;
+  transition: 0.3s ease all;
   transition-delay: 0.3s;
   opacity: 1;
 }
@@ -103,7 +103,7 @@ h2 {
   transform: translate(0, -1.8rem);
   letter-spacing: 1.5 px;
   opacity: 0;
-  transition: 1s all ease;
+  transition: 1s ease all;
   transition-delay: 0.3s;
 }
 
@@ -124,19 +124,19 @@ div.caja1 {
   height: 56vh;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.6);
-  transition: 1s;
+  transition: 1s ease all;
 }
 
 div.caja1 > div.img {
   position: absolute;
   z-index: 100;
   transform: translate(0, 0);
-  transition: 2.5s;
+  transition: 2.5s ease all;
 }
 
 div.caja1:hover > div.img {
   opacity: 0.5;
-  transform: translate(0, 390px);
+  transform: translate(0, 100%);
 }
 
 div.caja1:hover {

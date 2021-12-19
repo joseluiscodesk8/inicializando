@@ -48,7 +48,7 @@ body {
   transform: translate(0, 1rem);
 }
 input {
-  font-size: 18px;
+  font-size: 1.2rem;
   padding: 10px 10px 10px 5px;
   display: flex;
   width: 18.8rem;
@@ -58,6 +58,7 @@ input {
 }
 input:focus {
   outline: none;
+  border-bottom: none;
 }
 
 /* LABEL*/
@@ -77,8 +78,8 @@ label {
 /* active state */
 input:focus ~ label,
 input:valid ~ label {
-  top: -20px;
-  font-size: 14px;
+  top: -15px;
+  font-size: 0.9rem;
   color: #5264ae;
 }
 
@@ -95,7 +96,7 @@ input:valid ~ label {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #e67426;
+  background: rgba(154, 177, 172, 0.9);
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -176,4 +177,24 @@ input:focus ~ .highlight {
 }
 .boton:hover {
   background: rgb(255, 255, 255);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  transform: translate(0, 21rem);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 2.3rem;
+  padding: 5px;
+  transition: 0.8s;
+}
+
+img:hover {
+  border-radius: 10%;
+  box-shadow: 0 2px 5px #000;
 }
